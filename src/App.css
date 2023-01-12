@@ -1,0 +1,76 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.App{
+    background-color: rgb(228, 223, 238);
+    width: 250px;
+}
+.screen{
+    padding: 5px;
+    margin: 10px; 
+    background-color: antiquewhite;
+}
+.button-section{
+    display: flex;
+}
+.prime-btns{
+    display: flex;
+    /* padding-left: 10px; */
+}
+.prime-btns div{
+    cursor: pointer;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 4px;
+    width: 120px;
+    background-color: black;
+    color: white;
+}
+.prime-btns div:hover{
+    background-color: rgb(120, 116, 116);
+}
+.number-btns{
+    display: flex;
+    flex-wrap: wrap;
+}
+.number-btns div{
+    cursor: pointer;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 4px;
+    width: 55px;
+    /* width: 20px; */
+    background-color: black;
+    color: white;
+}
+.number-btns div:hover{
+    background-color: rgb(120, 116, 116);
+}
+.arithmetic-btns div{
+    cursor: pointer;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 4px;
+    width: 45px;
+    /* width: 20px; */
+    background-color: black;
+    color: white;
+}
+.arithmetic-btns div:hover{
+    background-color: rgb(120, 116, 116);
+}
+.submit-btn{
+    cursor: pointer;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 4px;
+    height: 25px;
+    /* width: 20px; */
+    background-color: black;
+    color: white;
+    
+}
+.submit-btn:hover{
+    background-color: rgb(120, 116, 116);
+}
